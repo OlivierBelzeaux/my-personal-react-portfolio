@@ -57,7 +57,7 @@ const Projects = () => {
       className='work container section'
       id='work'
     >
-      <h2 className='section__title'>Recent Works</h2>
+      <h2 className='section__title'>Mes Projets</h2>
       <div className='work__filters'>
         <span
           className='work__item'

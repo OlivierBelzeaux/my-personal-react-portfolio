@@ -9,13 +9,13 @@ const Contact = () => {
       className='contact container section'
       id='contact'
     >
-      <h2 className='section__title'>Get In Touch</h2>
+      <h2 className='section__title'>Me contacter</h2>
 
       <div className='contact__container grid'>
-        <div className='contact__info'>
+        {/* <div className='contact__info'>
           <h3 className='contact__title'>Me contacter</h3>
-          <p className='contact__details'>blabla</p>
-        </div>
+          <p className='contact__details'></p>
+        </div> */}
 
         <form
           action=''

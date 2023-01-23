@@ -35,6 +35,12 @@
   text-align: justify;
 }
 
+.about__info {
+  display: grid;
+  gap: 20px;
+  place-items: center;
+}
+
 .about__skills {
   row-gap: 1.25rem;
 }

@@ -7,6 +7,9 @@ import './about.css';
 import Me from '../../assets/photo.jpg';
 import Skills from './Skills.jsx';
 
+// CV
+import CV from '../../doc/Olivier_Belzeaux_CV_FullStack.pdf';
+
 const About = () => {
   return (
     <section
@@ -35,7 +38,8 @@ const About = () => {
               besoin de mes compétences en tant que développeur web.
             </p>
             <a
-              href=''
+              href={CV}
+              download='CV - Olivier Belzeaux'
               className='btn'
             >
               Télécharger mon CV
