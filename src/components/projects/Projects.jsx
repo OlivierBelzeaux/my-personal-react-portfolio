@@ -8,6 +8,7 @@ import FitClub from '../../assets/demo-fit-club.png';
 import ECommerce from '../../assets/demo-e-commerce.png';
 import Dashboard from '../../assets/demo-dashboard.jpeg';
 import FoodOrder from '../../assets/demo-food-order.png';
+import LinkSvg from '../../assets/link.svg';
 
 // Data
 const Menu = [
@@ -102,7 +103,11 @@ const Projects = () => {
                 target='_blank'
                 className='work__button'
               >
-                <i className='icon link work__button-icon'></i>
+                <img
+                  src={LinkSvg}
+                  alt='lien'
+                  className='icon-link'
+                />
               </a>
             </div>
           );

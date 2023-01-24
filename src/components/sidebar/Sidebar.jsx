@@ -12,7 +12,8 @@ const Sidebar = () => {
   return (
     <>
       <aside className={toggleMenu ? 'aside show-menu' : 'aside'}>
-        <a
+        <div></div>
+        {/* <a
           href='#home'
           className='nav__logo'
         >
@@ -20,7 +21,7 @@ const Sidebar = () => {
             src={Logo}
             alt='logo'
           />
-        </a>
+        </a> */}
 
         <nav className='nav'>
           <div className='nav__menu'>

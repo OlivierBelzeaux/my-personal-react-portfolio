@@ -76,7 +76,8 @@
   bottom: 1.5rem;
   left: 1.5rem;
   font-size: var(--h3-font-size);
-  display: block;
+  display: grid;
+  place-items: center;
   background-color: hsl(43, 100%, 68%);
   height: 40px;
   width: 40px;
@@ -96,6 +97,11 @@
 .work__card:hover .work__category {
   opacity: 1;
   transform: translateY(0);
+}
+
+.icon-link {
+  width: 27px;
+  height: auto;
 }
 
 @media screen and (max-width: 1024px) {

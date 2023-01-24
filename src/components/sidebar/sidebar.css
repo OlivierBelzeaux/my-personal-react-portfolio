@@ -14,6 +14,16 @@
   transition: all 0.3s ease-in-out;
 }
 
+.nav__logo {
+  width: auto;
+  height: 30px;
+}
+
+.logo {
+  width: auto;
+  height: 30px;
+}
+
 .nav__list {
   display: flex;
   flex-direction: column;
