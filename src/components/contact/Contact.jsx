@@ -18,7 +18,8 @@ const Contact = () => {
         </div> */}
 
         <form
-          action=''
+          action='https://formspree.io/f/myyazqol'
+          method='POST'
           className='contact__form'
         >
           <div className='contact__form-group'>
@@ -53,7 +54,12 @@ const Contact = () => {
                 rows='10'
               ></textarea>
             </div>
-            <button className='btn'>Envoyer</button>
+            <button
+              type='submit'
+              className='btn'
+            >
+              Envoyer
+            </button>
           </div>
         </form>
       </div>
