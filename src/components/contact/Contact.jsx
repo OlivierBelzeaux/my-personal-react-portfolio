@@ -28,6 +28,7 @@ const Contact = () => {
                 type='text'
                 className='contact__form-input'
                 placeholder='Nom'
+                name='name'
               />
             </div>
             <div className='contact__form-div'>
@@ -35,6 +36,7 @@ const Contact = () => {
                 type='email'
                 className='contact__form-input'
                 placeholder='Email'
+                name='email'
               />
             </div>
             <div className='contact__form-div'>
@@ -42,6 +44,7 @@ const Contact = () => {
                 type='text'
                 className='contact__form-input'
                 placeholder='Subject'
+                name='subject'
               />
             </div>
             <div className='contact__form-div contact__form-area'>
@@ -52,6 +55,7 @@ const Contact = () => {
                 id=''
                 cols='30'
                 rows='10'
+                name='message'
               ></textarea>
             </div>
             <button
