@@ -51,7 +51,6 @@ const Contact = () => {
               <textarea
                 className='contact__form-input'
                 placeholder='Message'
-                name=''
                 id=''
                 cols='30'
                 rows='10'
