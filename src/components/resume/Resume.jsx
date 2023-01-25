@@ -52,7 +52,7 @@ const Data = [
     id: 6,
     category: 'experience',
     icon: 'icon-briefcase',
-    year: 'nov 2018 - mar 2019',
+    year: 'nov 2018 - mars 2019',
     title: 'Auto-entrepreneur',
     desc: 'Shopify - Création et gestion de site e-commerce.',
   },
