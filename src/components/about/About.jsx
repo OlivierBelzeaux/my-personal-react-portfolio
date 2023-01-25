@@ -8,7 +8,7 @@ import Me from '../../assets/photo.jpg';
 import Skills from './Skills.jsx';
 
 // CV
-import CV from '../../doc/Olivier_Belzeaux_CV_FullStack.pdf';
+import CV from '../../doc/Olivier_Belzeaux_CV_React.pdf';
 
 const About = () => {
   return (
