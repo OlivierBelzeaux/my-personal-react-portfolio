@@ -39,7 +39,7 @@ const About = () => {
             </p>
             <a
               href={CV}
-              download='CV - Olivier Belzeaux - Développeur React'
+              download='CV_Olivier_Belzeaux_Développeur_React.pdf'
               className='btn'
             >
               Télécharger mon CV
