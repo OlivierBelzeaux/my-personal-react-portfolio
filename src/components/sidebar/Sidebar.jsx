@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import './sidebar.css';
 
 // Assets
-import Logo from '../../assets/logo.svg';
+import Logo from '../../assets/OB.svg';
 
 const Sidebar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -12,8 +12,7 @@ const Sidebar = () => {
   return (
     <>
       <aside className={toggleMenu ? 'aside show-menu' : 'aside'}>
-        <div></div>
-        {/* <a
+        <a
           href='#home'
           className='nav__logo'
         >
@@ -21,7 +20,7 @@ const Sidebar = () => {
             src={Logo}
             alt='logo'
           />
-        </a> */}
+        </a>
 
         <nav className='nav'>
           <div className='nav__menu'>
