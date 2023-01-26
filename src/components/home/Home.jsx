@@ -24,7 +24,7 @@ const Home = () => {
           className='home__img'
         />
         <h1 className='home__name'>Olivier Belzeaux</h1>
-        <span className='home__education'>React Developer</span>
+        <span className='home__education'>Développeur React</span>
 
         <HeaderSocials />
 
